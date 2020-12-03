@@ -1,0 +1,28 @@
+<h1>Chocolates</h1>
+
+<a href="/add">Add</a>
+
+
+	<table>
+		<thead>
+			<tr>
+				<th class="large">Name</th>
+				<th class="large">Quantity</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each chocolates}}
+			<tr>
+				<td class="large">{{name}}</td>
+				<td class="large">{{qty}}</td>
+				<td>
+					<form method="POST" action="/chocolate_stock">
+						<input type="hidden" name="id" value="{{id}}">
+						<button class="btn large" type="submit" name="plus">+</button>
+						<button class="btn large" type="submit" name="minus">-</button>
+					</form>
+				</td>
+			</tr>
+			{{/each}}
+		</tbody>
+	</table>
