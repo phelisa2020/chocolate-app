@@ -25,10 +25,13 @@ create table chocolate (
     qty int);
 ```
 
+## Run the app
+
+To run the app do an: `npm install` followed by `npm start`.
+
 ## JavaScript  dependencies
 
-You will need Axios, Handlebars JS & lodash JavaScript dependencies.
-
+You will need Axios, Handlebars JS & lodash JavaScript dependencies. To integrate Teachable Maching into this project.
 
 ### Handlebars
 
