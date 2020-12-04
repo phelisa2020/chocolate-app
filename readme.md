@@ -1,4 +1,4 @@
-# Chocolate app.
+# Chocolate app
 
 Create a database called : `choco` on PostgreSQL.
 
